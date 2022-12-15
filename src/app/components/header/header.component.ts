@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
   title: string = 'Angular Todo';
 
+  toggleAddTask() {
+    console.log('toggle')
+  }
+
 }
